@@ -4,3 +4,5 @@
 [1](https://playentry.org/community/tips/65d9e41f6d7aae0033c6820a)
 
 [2](https://playentry.org/community/tips/65d9e623b1e539001aa03443)
+
+으악 나 2%... 폰 배터리...
