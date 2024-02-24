@@ -1,0 +1,81 @@
+C는 재미있따, 배우고 싶다
+
+Q : Quain (14)
+A : Aris (18)
+
+Q. 포인터... 알려줘
+A. nbit computer에서 nbit, 그러니까 64bit 컴에선 64bit임.
+
+Q. 사... 용법....
+A. 히힛, 여기
+int 주소를알려고하는변수 = 69;
+int *포인터변수 = &주소를알려고하는변수; 
+// &로 주소구하기 ㄱㄴ
+
+Q. 포인터...다알았다
+A. 포인터는 간접주소인거 알지?
+
+Q. 아...가상 CPU에서 간접주소레지스터 가상화해서 어케설계하지
+A. (STARE....) (웃음)
+
+Q. structure 구...구조체
+A. 에를들어...
+structure LoveHouse
+{
+     short Quain; //사심이...
+     short Qute; //잔~뜩...
+};
+이러면 [16bit Quain][16bit Qute]이렇게 됑 ㅎㅎ.
+
+Q. (아니 저 소스코드 검열될거같은데)
+Q. Union은...?
+A. 예를들어서어~...
+union AboutLoveHouse
+{
+     int LoveHouseNumber; //32bit, 가장 커~다람.
+     structure LoveHouse
+     {
+         short Quain;
+         short Qute;
+     }
+};
+[LoveHouseNumber] = [Quain][Qute] 이런식의 구조임....ㅎ
+
+Q. typedef좀 알려줘요
+A. 예문 드립니다
+typedef structure Human //OOP흉내
+{
+    char[10] name;
+    char[10] info;
+};
+
+Human Quain;
+Quain.name[0] = 'Q'
+Quain.name[0] = 'u'
+Quain.name[0] = 'a'
+Quain.name[0] = 'i'
+Quain.name[0] = 'n'
+Quain.info[0] = 'Q';
+Quain.info[0] = 'u';
+Quain.info[0] = 't;
+Quain.info[0] = 'e';
+
+Q. ㅇ으ㅏ아 이제 됬다.. 이제 이 정신나간곳을 빠져나가자
+A. 어디강... Function(함수)작동원리 배워야지...
+
+===== 글쓴이의말 =====
+Step4. 부터는 내일 (2.24) 이후에 작성합니다.
+Step5. 에서는 LITE라는 VCPU C대용 프로그래밍 언어를 소계하겠습니다
+Step6. 에서는 OISC라는 esoplang 아키텍처에 대해 알아보겠습니다
+Step7. 에서는 OISC muly Core CPU와 Firm Ware에 대해 작성합니다.
+Step8. Step7Architecture Assambler에 대해 작성합니다.
+Step9. 에서는 LITE의 compiler를 Step7Architecture Assambly어로 작성해보겠습니다.
+Step10.에서는 Python용 Graphic Card와 Python에서의 Step7Architecture Terminal을 LITE로 제작하여 보겠습니다. (흑흑 나는 Python밖에 못써)
+Step11.에서는 Python의 역할을 Entry가 대신 하여보겠습니다.
+Step12.에서는 참고자료 링크를 첨부하겠습니다.
+
+아 떡볶이시켰는데 지금먹어버리고 싶다...
+근데 가족여행이고 내가 있는곳은 차지...
+
+공식 레포 : github.com/FarAway6834/STEPS
+ (README.md에 각 화가 기록되어있음)
